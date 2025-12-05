@@ -25,6 +25,8 @@ The main goals of this homework were to:
 - Sentences were split into training and testing sets (80%/20%).
 
 > **Tag filtering:** In some experiments, sentences were filtered to include only the tags: `"ADJ", "ADV", "NOUN", "VERB", "PUNCT"` for a simpler and more controlled POS tagging task.
+> **Note:**  
+>  These files are **private** and **not publicly accessible** due to academic integrity and copyright policies.
 
 ## Implementation Overview
 
@@ -76,15 +78,6 @@ The main goals of this homework were to:
 - Confusion matrices were generated using `seaborn.heatmap()` to observe common tag misclassifications.
 - NOUN-VERB confusion was prominent in unfiltered models.
 
-##  Key Files
-
-- `web.conllu`: Contains CoNLL-formatted sentences with POS tags, used as part of the training data.
-
-- `wiki.conllu`: Additional POS-tagged dataset similar in structure to `web.conllu`, merged with it to create a larger dataset.
-
-- > **Note:**  
-
-- > These files are **private** and **not publicly accessible** due to academic integrity and copyright policies.
 
 ## Observations & Improvements
 
