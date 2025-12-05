@@ -24,8 +24,7 @@ The main goals of this homework were to:
 - After merging both datasets, a total of **4851 sentences** were processed.
 - Sentences were split into training and testing sets (80%/20%).
 
-> **Tag filtering:** In some experiments, sentences were filtered to include only the tags: `"ADJ", "ADV", "NOUN", "VERB", "PUNCT"` for a simpler and more controlled POS tagging task.
-> **Note:**  
+-> **Note:**  
 >  These files are **private** and **not publicly accessible** due to academic integrity and copyright policies.
 
 ## Implementation Overview
